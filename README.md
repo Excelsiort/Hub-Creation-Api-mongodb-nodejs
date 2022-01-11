@@ -162,3 +162,5 @@ Pour tester vous pouvez créer un post à la main dans la db:
 }
 
 ```
+
+Pour la suite on ira dans exercice.md pour faire le reste.

@@ -151,6 +151,7 @@ Et l'appeler sur index.js:
 ```javascript
 const postsRoutes = require('./routes/postsController');
 
+app.use('/posts, postsRoutes);
 ```
 
 Pour tester vous pouvez créer un post à la main dans la db:

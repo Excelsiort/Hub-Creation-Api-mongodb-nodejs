@@ -159,7 +159,7 @@ Pour tester vous pouvez créer un post à la main dans la db:
 ```json
 {
   "author" : "Damien",
-  "message" : "on lache r"
+  "message" : "on lache rien"
 }
 
 ```

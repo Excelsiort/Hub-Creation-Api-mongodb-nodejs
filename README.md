@@ -112,7 +112,7 @@ Créer le fichier postsControllers.js dans models/routes
 const express = require('express');
 const router = express.Router();
 
-const { PostsModel } = require('../models/postsModel');
+const { PostsModel } = require('../postsModel');
 
 router.get('/', (req, res) => {
   PostsModel.find((err, docs) => {

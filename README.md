@@ -105,26 +105,6 @@ Créer le dossier routes pour faire le routage de notre api et à l'interieur le
 
 Faire une methode Get pour récuperer les données
 
-
-```javascript
-const mongoose = require('mongoose');
-
-mongoose.connect(
-  "le lien de connection",
-  { useNewUrlParser: true, useUnifiedTopology: true },
-  (err) => {
-    if (!err) console.log("Mongodb connected");
-    else console.log("Connection error :" + err);
-  }
-)
-```
-
-Puis l'appeler dans index.js:
-
-```javascript
-require('./models/dbConfig');
-```
-
 Créer le fichier postControllers.js dans models/routes
 
 ```javascript
@@ -141,6 +121,11 @@ router.get('/', (req, res) => {
   })
 });
 
+Puis l'appeler dans index.js:
+
+```javascript
+require('./models/dbConfig');
+```
 
 module.exports = router;
 

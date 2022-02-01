@@ -105,7 +105,7 @@ Créer le dossier routes pour faire le routage de notre api et à l'interieur le
 
 Faire une methode Get pour récuperer les données
 
-Créer le fichier postControllers.js dans models/routes
+Créer le fichier postsControllers.js dans models/routes
 
 ```javascript
 
@@ -130,7 +130,7 @@ Et l'appeler sur index.js:
 ```javascript
 const postsRoutes = require('./routes/postsController');
 
-app.use('/posts, postsRoutes);
+app.use('/posts', postsRoutes);
 ```
 
 Pour tester vous pouvez créer un post à la main dans la db:

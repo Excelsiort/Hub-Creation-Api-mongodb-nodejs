@@ -35,7 +35,7 @@ app.listen(5500, () => console.log('Server started: 5500'));
 ```
 Maintenant que nous pouvons nous connecter au serveur il nous allons créer une base de donnée appelé node-api.
 
-Créer un dossier model contenant dbConfig.js à la racine.
+Créer un dossier models contenant dbConfig.js à la racine.
 
 Télécharger MongoDb compass https://www.mongodb.com/try/download/compass
 
@@ -51,7 +51,7 @@ Installer mongoose (package pour utiliser mongodb avec nodejs):
     
 <!--endsec-->
 
-Dans mondels/dbConfig.js se connecter à la db:
+Dans models/dbConfig.js se connecter à la db:
 
 ```javascript
 const mongoose = require('mongoose');

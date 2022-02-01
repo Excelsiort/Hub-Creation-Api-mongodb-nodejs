@@ -125,7 +125,7 @@ Puis l'appeler dans index.js:
 require('./models/dbConfig');
 ```
 
-Créer le fichier postControllers.js dans models/routes et créer le model de db pour des posts avec un auteur, un message et une date:
+Créer le fichier postControllers.js dans models/routes
 
 ```javascript
 

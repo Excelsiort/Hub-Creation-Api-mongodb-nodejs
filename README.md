@@ -31,7 +31,7 @@ Dans index.js se connecter au serveur:
 const express = require('express');
 const app = express();
 
-app.listen(5500 () => console.log('Server started: 5500'));
+app.listen(5500, () => console.log('Server started: 5500'));
 ```
 Maintenant que nous pouvons nous connecter au serveur il nous allons créer une base de donnée appelé node-api.
 

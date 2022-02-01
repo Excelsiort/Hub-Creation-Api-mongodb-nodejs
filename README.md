@@ -121,12 +121,6 @@ router.get('/', (req, res) => {
   })
 });
 
-Puis l'appeler dans index.js:
-
-```javascript
-require('./models/dbConfig');
-```
-
 module.exports = router;
 
 ```
